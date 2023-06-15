@@ -1,0 +1,148 @@
+// vim settings
+  "vim.enableNeovim": true,
+  "vim.neovimPath": "path\\to\\nvim.exe",
+  "vim.neovimConfigPath": "path\\to\\init.vim",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<Leader>",
+        "b"
+      ],
+      "commands": [
+        "workbench.action.toggleSidebarVisibility"
+      ]
+    },
+    {
+      "before": [
+        "<Tab>"
+      ],
+      "commands": [
+        ":tabnext"
+      ]
+    },
+    {
+      "before": [
+        "<S-Tab>"
+      ],
+      "commands": [
+        ":tabprev"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "p"
+      ],
+      "commands": [
+        "workbench.action.showCommands"
+      ]
+    },
+    {
+      "before": [
+        "<C-h>"
+      ],
+      "after": [
+        "<C-w>",
+        "h"
+      ]
+    },
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "<C-w>",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "<C-k>"
+      ],
+      "after": [
+        "<C-w>",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "<C-l>"
+      ],
+      "after": [
+        "<C-w>",
+        "l"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save",
+      ]
+    },
+    {
+      "before": [
+        "<C-w>",
+      ],
+      "commands": [
+        ":q"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "lineBreakInsert"
+      ],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.insert": "line",
